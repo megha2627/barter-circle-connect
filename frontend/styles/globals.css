@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+  
+  /* Make header sticky at the top */
+  
+  /* Footer should stick at the bottom */
+  /* Make the logo responsive */
+.logo {
+    max-height: 50px; /* Adjust the max height */
+    width: auto;
+    font-color: white;
+  }
+  
+  
+  
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  main {
+    flex: 1;
+    padding: 30px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2e7d32;
+  }
+  
+  /* Form Inputs */
+  input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Dropdown filter */
+  .select-category {
+    margin: 10px 0;
+    padding: 8px;
+  }
+  
+  /* Card UI */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  }
+  
+  /* Mission Section */
+  .about-us {
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 10px;
+  }
+  
