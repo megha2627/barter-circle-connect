@@ -65,7 +65,17 @@ barter-circle-connect/
 - You may need to set up a `.env` file in the backend for environment variables (e.g., database URI, JWT secret).
 - The backend uses `nodemon` for auto-reloading during development.
 
----
+## 📸 Screenshots
+
+### Home Page
+![Home Page](./screenshots/one.png)
+
+### Login Page
+![Login Page](./screenshots/two.png)
+
+### Dashboard
+![Dashboard](./screenshots/three.png)
+
 
 ## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
