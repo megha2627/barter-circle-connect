@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const ProfileEdit = ({ userId, currentProfile }) => {
-  const [bio, setBio] = useState(currentProfile.bio || "");
+  const [bio, setBio] = useState(currentProfile?.bio || "");
   const [skillsOffered, setSkillsOffered] = useState(
-    currentProfile.skillsOffered || []
+    currentProfile?.skillsOffered || []
   );
   const [skillsNeeded, setSkillsNeeded] = useState(
-    currentProfile.skillsNeeded || []
+    currentProfile?.skillsNeeded || []
   );
 
   const handleSubmit = async (e) => {

@@ -4,5 +4,7 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/category": "pages/category.js",
-  "/about": "pages/about.js"
+  "/about": "pages/about.js",
+  "/signup": "pages/signup.js",
+  "/login": "pages/login.js"
 }
